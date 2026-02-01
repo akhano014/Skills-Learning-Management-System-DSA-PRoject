@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AddTopic">
+  <grid id="27dc6" binding="topicPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="704" height="604"/>
+    </constraints>
+    <properties>
+      <background color="-16700331"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="bb782" binding="CoursePanel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16700331"/>
+          <maximumSize width="700" height="550"/>
+          <preferredSize width="700" height="600"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="88e9" binding="HeadingPanel" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="10" bottom="10" right="10"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="700" height="600"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16700331"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b9c2c" class="javax.swing.JLabel" binding="MainHeading">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial Black" size="36" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="&lt;html&gt;&lt;div style='padding-left: 32px;'&gt;ADD TOPIC&lt;/div&gt;&lt;/html&gt;&#10;"/>
+                </properties>
+              </component>
+              <component id="213d7" class="javax.swing.JLabel" binding="userLogo">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="1.0"/>
+                  <icon value="working (1).png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="66403" class="javax.swing.JLabel" binding="CoursesLogo">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="1.0"/>
+                  <icon value="online-course.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="7ae48" class="javax.swing.JLabel" binding="UserLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="16" style="1"/>
+                  <foreground color="-5191720"/>
+                  <text value="User Name"/>
+                </properties>
+              </component>
+              <component id="cd881" class="javax.swing.JLabel" binding="TopicL">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="16" style="1"/>
+                  <foreground color="-5191720"/>
+                  <text value="Topics"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <vspacer id="e006a">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <grid id="cf8f4" binding="MainPanel" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="20" left="20" bottom="10" right="20"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16700331"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e26c6" class="javax.swing.JLabel" binding="TppicNL">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial Black" size="18" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Enter Topic Name:"/>
+                </properties>
+              </component>
+              <component id="486a5" class="javax.swing.JTextField" binding="NameTF">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="250" height="30"/>
+                    <maximum-size width="450" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-12827056"/>
+                  <font name="Arial" size="16" style="1"/>
+                  <foreground color="-1"/>
+                </properties>
+              </component>
+              <component id="b44ca" class="javax.swing.JLabel" binding="LevelL">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial Black" size="18" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Select Diffculty Level:"/>
+                </properties>
+              </component>
+              <component id="e0f87" class="javax.swing.JLabel" binding="ContentL">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial Black" size="18" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Enter Topic Content:"/>
+                </properties>
+              </component>
+              <component id="deb64" class="javax.swing.JTextArea" binding="LectureArea">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="150"/>
+                    <maximum-size width="-1" height="150"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-12827056"/>
+                  <disabledTextColor color="-13947600"/>
+                  <font name="Arial" size="16" style="1"/>
+                  <foreground color="-1"/>
+                  <lineWrap value="true"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="a95be" class="javax.swing.JComboBox" binding="DiffcultCombo">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12827056"/>
+                  <font name="Arial" size="16" style="1"/>
+                  <foreground color="-1"/>
+                  <model>
+                    <item value="Select one..."/>
+                    <item value="1. Easy"/>
+                    <item value="2. Intermediate"/>
+                    <item value="3. Hard"/>
+                  </model>
+                </properties>
+              </component>
+              <hspacer id="1f4d1">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="8"/>
+                    <maximum-size width="-1" height="8"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <hspacer id="2b469">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="8"/>
+                    <maximum-size width="-1" height="8"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <hspacer id="d0aec">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="8"/>
+                    <maximum-size width="-1" height="8"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <component id="1a29b" class="javax.swing.JLabel" binding="SelectCourseL">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial Black" size="18" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Select Course:"/>
+                </properties>
+              </component>
+              <component id="a6990" class="javax.swing.JComboBox" binding="CourseCombo">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12827056"/>
+                  <font name="Arial" size="16" style="1"/>
+                  <foreground color="-1"/>
+                  <model>
+                    <item value="Select one..."/>
+                  </model>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="aad2e" class="javax.swing.JButton" binding="Feedbackbtn">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16741190"/>
+              <font name="Arial Black" size="16" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Submit"/>
+            </properties>
+          </component>
+          <component id="1bb25" class="javax.swing.JButton" binding="LogoutBtn">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16741190"/>
+              <font name="Arial Black" size="16" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Logout"/>
+            </properties>
+          </component>
+          <vspacer id="eb297">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="b3977" class="javax.swing.JButton" binding="Menubtn">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16741190"/>
+              <font name="Arial Black" size="16" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Main Menu"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
