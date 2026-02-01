@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Registrationform">
+  <grid id="27dc6" binding="Registerpanel" layout-manager="GridLayoutManager" row-count="8" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="20" bottom="20" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="496"/>
+    </constraints>
+    <properties>
+      <background color="-16700331"/>
+      <font name="Segoe Print" size="18"/>
+      <preferredSize width="550" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="361ef" class="javax.swing.JLabel" binding="LogoLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="new.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d276e" class="javax.swing.JLabel" binding="RegisterLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12827056"/>
+          <font name="Arial Black" size="48" style="1"/>
+          <foreground color="-1"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <component id="1d9d4" class="javax.swing.JLabel" binding="NameLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="User Name"/>
+        </properties>
+      </component>
+      <component id="c39cb" class="javax.swing.JTextField" binding="Namefield">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12827056"/>
+          <font name="Arial" size="16" style="1"/>
+          <foreground color="-1"/>
+          <margin top="2" left="9" bottom="2" right="6"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="751e8" class="javax.swing.JLabel" binding="EmailLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="User Email"/>
+        </properties>
+      </component>
+      <component id="eebab" class="javax.swing.JTextField" binding="EmailField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12827056"/>
+          <font name="Arial" size="16" style="1"/>
+          <foreground color="-1"/>
+          <margin top="2" left="9" bottom="2" right="6"/>
+        </properties>
+      </component>
+      <component id="7729" class="javax.swing.JLabel" binding="PhoneLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="Phone Number"/>
+        </properties>
+      </component>
+      <component id="bfd53" class="javax.swing.JTextField" binding="PhoneField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12827056"/>
+          <font name="Arial" size="16" style="1"/>
+          <foreground color="-1"/>
+          <margin top="2" left="9" bottom="2" right="6"/>
+        </properties>
+      </component>
+      <component id="b9b69" class="javax.swing.JLabel" binding="PasswordLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="60fa1" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12827056"/>
+          <font name="Arial" size="16" style="1"/>
+          <foreground color="-1"/>
+          <margin top="5" left="9" bottom="5" right="6"/>
+        </properties>
+      </component>
+      <component id="2185a" class="javax.swing.JLabel" binding="ConfirmPassword">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="Confirm Password"/>
+        </properties>
+      </component>
+      <component id="69b6a" class="javax.swing.JPasswordField" binding="passwordField2" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12827056"/>
+          <font name="Arial" size="16" style="1"/>
+          <foreground color="-1"/>
+          <margin top="5" left="9" bottom="5" right="6"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="dd350" class="javax.swing.JButton" binding="Reigsterbtn">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11688961"/>
+          <font name="Arial Black" size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <component id="36fa6" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11688961"/>
+          <font name="Arial Black" size="18" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+      <component id="6937c" class="javax.swing.JLabel" binding="SelectRole">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="18" style="1"/>
+          <foreground color="-1"/>
+          <text value="Select Role"/>
+        </properties>
+      </component>
+      <component id="67f9f" class="javax.swing.JComboBox" binding="RoleCombo">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12827056"/>
+          <font name="Arial" size="16" style="1"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Select one..."/>
+            <item value="Admin"/>
+            <item value="Student"/>
+          </model>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
